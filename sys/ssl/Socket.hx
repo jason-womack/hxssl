@@ -18,6 +18,12 @@ import cpp.Lib;
 import neko.Lib;
 #elseif cs
 import cs.Lib;
+#elseif java
+import java.Lib;
+#elseif python
+import python.Lib;
+#elseif js
+import js.Lib;
 #end
 
 private typedef SocketHandle = Dynamic;
