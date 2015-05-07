@@ -16,6 +16,8 @@ import haxe.io.Eof;
 import cpp.Lib;
 #elseif neko
 import neko.Lib;
+#elseif cs
+import cs.Lib;
 #end
 
 private typedef SocketHandle = Dynamic;
